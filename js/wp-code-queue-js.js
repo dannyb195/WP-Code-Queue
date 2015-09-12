@@ -12,10 +12,8 @@
 			data: {
 				'action': 'wp_code_queue',
 				'link': link,
-				// 'refresh': refresh,
 			},
 			success: function( data ) {
-				// console.log( data );
 				$wpCodeContent.html( data );
 
 			},
@@ -42,7 +40,7 @@
 
 			},
 		} );
-	}, 1000 );
+	}, 5000 );
 
 	// triggering our ajax on click
 	$wpCodeButton.on( 'click', function() {
