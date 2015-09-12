@@ -27,4 +27,4 @@ a place to paste a link from Github, which is added to a queue, displayed and up
 ##Usage / Workflow
 
 1. Developer A ( reviewee ) pastes a link from Github ( link are checked for the string of `http://github.com/` ) in the provided input field and hits enter
-2. Developer B ( reviewer ) types 'reviewing <complete link of what they are reviewing>'. This will result in the link being taken out of the code queue and Developer B will then continue to do a code review via github
+2. Developer B ( reviewer ) types 'reviewing `<complete link of what they are reviewing>`'. This will result in the link being taken out of the code queue and Developer B will then continue to do a code review via github
